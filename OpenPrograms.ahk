@@ -7,6 +7,8 @@ Menu, Tray, Icon, shell32.dll, 16 ; change icon to laptop thingy
 
 ; Opens up Chrome
 ^numpad1:: ; Ctrl + 1
+IfWinNotExist, ahk_exe chrome.exe
+  Run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 if WinActive("ahk_class Chrome_WidgetWin_1")
   ; Switch between tabs (Ctrl+Tab)
   Send ^{tab}
@@ -29,6 +31,6 @@ Return
 ; VS Code
 ^numpad3:: ; Ctrl + 3
 IfWinNotExist, ahk_exe Code.exe
-  Run, Code.exe
+  Run, "C:\Program Files\Microsoft VS Code\Code.exe"
 WinActivate ahk_exe Code.exe
 Return 
