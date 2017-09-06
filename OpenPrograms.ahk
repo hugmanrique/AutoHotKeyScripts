@@ -9,7 +9,7 @@ Menu, Tray, Icon, shell32.dll, 16 ; change icon to laptop thingy
 ^numpad1:: ; Ctrl + 1
 IfWinNotExist, ahk_exe chrome.exe
   Run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-if WinActive("ahk_class Chrome_WidgetWin_1")
+if WinActive("ahk_exe chrome.exe")
   ; Switch between tabs (Ctrl+Tab)
   Send ^{tab}
 else
@@ -40,4 +40,11 @@ Return
 IfWinNotExist, ahk_exe tweeten.exe
   Run, "D:\Users\Hugo\AppData\Local\Tweeten\tweeten.exe"
 WinActivate ahk_exe tweeten.exe
+Return
+
+; Discord Canary
+^numpad5:: ; Ctrl + 5
+IfWinNotExist, ahk_exe DiscordCanary.exe
+  Run, "D:\Users\Hugo\AppData\Local\DiscordCanary\Update.exe"
+WinActivate ahk_exe DiscordCanary.exe
 Return
