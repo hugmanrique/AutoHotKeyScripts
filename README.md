@@ -2,6 +2,8 @@
 
 Heavily insipired by Taran's [second keyboard video](https://youtu.be/Arn8ExQ2Gjg?t=362), I decided to create my own AutoHotKey scripts. This repo contains all of them.
 
+I additionally use my Corsair's keyboard G keys which can be programmed by pressing the macro record (MR) key, pressing the G key you want to program and then typing in a key combination. Logitech keyboards also have this functionality and I'm sure there are plenty more brands that have macro keys.
+
 ## :triangular_ruler: Getting started
 
 [Watch the video](https://youtu.be/Arn8ExQ2Gjg?t=362) first, then take a look at the instructions below.
