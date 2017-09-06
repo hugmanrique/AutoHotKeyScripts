@@ -33,4 +33,11 @@ Return
 IfWinNotExist, ahk_exe Code.exe
   Run, "C:\Program Files\Microsoft VS Code\Code.exe"
 WinActivate ahk_exe Code.exe
-Return 
+Return
+
+; Tweeten
+^numpad4:: ; Ctrl + 4
+IfWinNotExist, ahk_exe tweeten.exe
+  Run, "D:\Users\Hugo\AppData\Local\Tweeten\tweeten.exe"
+WinActivate ahk_exe tweeten.exe
+Return
