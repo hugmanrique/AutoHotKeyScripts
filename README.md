@@ -13,7 +13,7 @@ I additionally use my Corsair's keyboard G keys which can be programmed by press
 3. `cd` into the newly created directory.
 4. Run any of the scripts
 
-## :memo: References
+## :closed_book: References
 
 - [DIY 87-Key Macro Keyboard](https://www.youtube.com/watch?v=Arn8ExQ2Gjg) by Taran of LinusTechTips
 - [The Art of the Bodge](https://www.youtube.com/watch?v=lIFE7h3m40U) by Tom Scott
