@@ -13,7 +13,7 @@ if WinActive("ahk_exe chrome.exe")
   ; Switch between tabs (Ctrl+Tab)
   Send ^{tab}
 else
-  WinActivate ahk_class Chrome_WidgetWin_1
+  WinActivate ahk_exe chrome.exe
 Return
 
 ; Explorer
